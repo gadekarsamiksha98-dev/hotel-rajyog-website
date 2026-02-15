@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajyog Hotel - Chitali Road, Rahata | राजयोग हॉटेल - चितळी रोड, राहाता</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Rajyog Hotel | राजयोग हॉटेल</h1>
+                <p class="tagline">Chitali Road, Rahata | चितळी रोड, राहाता</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home | होम</a></li>
+                <li><a href="#menu">Menu | मेनू</a></li>
+                <li><a href="#instagram">Gallery | गॅलरी</a></li>
+                <li><a href="#contact">Contact | संपर्क</a></li>
+                <li><a href="admin.html" class="admin-link">Admin</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Hotel Rajyog<br>हॉटेल राजयोग मध्ये आपले स्वागत आहे</h1>
+            <p class="hero-subtitle">Experience Authentic Flavors | प्रामाणिक चव अनुभवा</p>
+        </div>
+    </section>
+
+    <!-- Special Dish Section -->
+    <section class="special-dish">
+        <div class="container">
+            <h2 class="section-title">Our Signature Dishes | आमचे खास पदार्थ</h2>
+            <div class="signature-dishes-grid">
+                <div class="special-card">
+                    <div class="special-image">
+                        <img src="images/kanduri-mutton.avif" alt="Kanduri Mutton" loading="lazy">
+                    </div>
+                    <div class="special-content">
+                        <h3>Kanduri Mutton | कंडुरी मटण</h3>
+                        <p class="special-description">Our most celebrated dish, prepared with authentic spices and traditional cooking methods. A must-try for every food lover! | आमचा सर्वात प्रसिद्ध पदार्थ, प्रामाणिक मसाल्यांसह पारंपरिक पद्धतीने तयार केलेला.</p>
+                        <p class="special-price">₹500</p>
+                        <div class="delivery-buttons">
+                            <a href="https://www.swiggy.com" target="_blank" class="btn-delivery swiggy">
+                                <i class="fas fa-motorcycle"></i> Order on Swiggy
+                            </a>
+                            <a href="https://www.zomato.com" target="_blank" class="btn-delivery zomato">
+                                <i class="fas fa-utensils"></i> Order on Zomato
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-image">
+                        <img src="images/kanduri-chicken.jpg" alt="Kanduri Chicken" loading="lazy">
+                    </div>
+                    <div class="special-content">
+                        <h3>Kanduri Chicken | कंडुरी चिकन</h3>
+                        <p class="special-description">Tender chicken cooked in rich, aromatic spices with our special Kanduri style. A perfect blend of flavors that will leave you craving for more! | कोमल चिकन विशेष कंडुरी शैलीत सुगंधी मसाल्यांसह शिजवलेले.</p>
+                        <p class="special-price">₹300</p>
+                        <div class="delivery-buttons">
+                            <a href="https://www.swiggy.com" target="_blank" class="btn-delivery swiggy">
+                                <i class="fas fa-motorcycle"></i> Order on Swiggy
+                            </a>
+                            <a href="https://www.zomato.com" target="_blank" class="btn-delivery zomato">
+                                <i class="fas fa-utensils"></i> Order on Zomato
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu | आमचा मेनू</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <div class="filter-option">
+                    <span class="filter-label">🥗 Veg Menu | शाकाहारी मेनू</span>
+                    <button class="filter-btn" data-filter="Veg">View Menu | मेनू पहा</button>
+                </div>
+                <div class="filter-option">
+                    <span class="filter-label">🍗 Non-Veg Menu | मांसाहारी मेनू</span>
+                    <button class="filter-btn" data-filter="Non-Veg">View Menu | मेनू पहा</button>
+                </div>
+            </div>
+
+            <!-- Menu Grid -->
+            <div id="menuGrid" class="menu-grid"></div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section id="instagram" class="instagram-section">
+        <div class="container">
+            <h2 class="section-title">Follow Us on Instagram | आम्हाला इन्स्टाग्रामवर फॉलो करा</h2>
+            <p class="instagram-handle">
+                <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                    <i class="fab fa-instagram"></i> @hotelrajyog_
+                </a>
+            </p>
+            
+            <!-- Instagram Photo Grid -->
+            <div id="instagramFeed" class="instagram-grid">
+                <!-- Instagram-style posts linking to profile -->
+                    <div class="instagram-post">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                            <img src="images/photo1.jpg" alt="Hotel Rajyog" loading="lazy">
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="instagram-post">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                            <img src="images/photo2.jpg" alt="Hotel Rajyog" loading="lazy">
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="instagram-post">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                            <img src="images/photo3.jpg" alt="Hotel Rajyog" loading="lazy">
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="instagram-post">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                            <img src="images/photo4.jpg" alt="Hotel Rajyog" loading="lazy">
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="instagram-post">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                            <img src="images/photo5.jpg" alt="Hotel Rajyog" loading="lazy">
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="instagram-post">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank">
+                            <img src="images/photo6.jpg" alt="Hotel Rajyog" loading="lazy">
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                            <div class="instagram-overlay">
+                                <i class="fab fa-instagram"></i>
+                                <p>View on Instagram</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Instagram Profile Button -->
+            <div class="instagram-cta">
+                <a href="https://instagram.com/hotelrajyog_" target="_blank" class="btn btn-instagram">
+                    <i class="fab fa-instagram"></i> Follow @hotelrajyog_ on Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Feedback Section -->
+    <section class="feedback-section">
+        <div class="container">
+            <h2 class="section-title">Customer Feedback | ग्राहक अभिप्राय</h2>
+            <p class="feedback-description">
+                आमच्या ग्राहकांना संतुष्ट करणे हा आमचा अभिमान आहे. आमच्या सेवेबद्दल आणि जेवणाबद्दल मिळालेला प्रतिसाद पाहा.
+                <br>
+                <em>We take pride in satisfying our customers. Watch the feedback about our service and food.</em>
+            </p>
+            <div class="feedback-video-container">
+                <video controls class="feedback-video" poster="videos/feedback-poster.jpg">
+                    <source src="videos/customer-feedback.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us | आमच्याशी संपर्क साधा</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-user"></i>
+                        <h3>Owner | मालक</h3>
+                        <p>Mr. Vijay Gadekar | श्री. विजय गाडेकर</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone | फोन</h3>
+                        <p><a href="tel:9822684860">9822684860</a></p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location | स्थान</h3>
+                        <p>Chitali Road, Rahata | चितळी रोड, राहाता</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <p><a href="https://instagram.com/hotelrajyog_" target="_blank">@hotelrajyog_</a></p>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.5!2d74.4!3d19.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDQyJzAwLjAiTiA3NMKwMjQnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                    <a href="https://maps.app.goo.gl/HmbjHwoEV6adgGx86" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">
+                        Open in Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Rajyog Hotel | राजयोग हॉटेल</h3>
+                    <p>Authentic flavors, memorable experiences | प्रामाणिक चव, संस्मरणीय अनुभव</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links | द्रुत दुवे</h3>
+                    <ul>
+                        <li><a href="#home">Home | होम</a></li>
+                        <li><a href="#menu">Menu | मेनू</a></li>
+                        <li><a href="#contact">Contact | संपर्क</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect | जोडा</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com/hotelrajyog_" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="tel:9822684860"><i class="fas fa-phone"></i></a>
+                        <a href="https://maps.app.goo.gl/HmbjHwoEV6adgGx86" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rajyog Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Call Now Button -->
+    <a href="tel:9822684860" class="floating-call-btn" aria-label="Call Now">
+        <i class="fas fa-phone"></i>
+        <span>Call Now</span>
+    </a>
+
+    <script src="script-static.js"></script>
+</body>
+</html>
